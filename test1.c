@@ -6,7 +6,7 @@ struct student{
 };
 int main(){
     struct student s={16,"张三"};
-    struct student s1 = {21,"李四"}；
+    struct student s1 = {20,"李四"}；
     printf("%d %s\n",s.age,s.name);
     return 0;
 }
